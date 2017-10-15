@@ -1,3 +1,4 @@
+console.log("started");
 var Gpio = require('pigpio').Gpio,
   led = new Gpio(17, {mode: Gpio.OUTPUT}),
   dutyCycle = 0;
